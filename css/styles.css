@@ -46,9 +46,14 @@ a {
     z-index: 1000;
 }
 
-.header > a {
+.logo-sitio a {
     color: #eee9e9;
     text-decoration: none;
+}
+
+.logo-sitio h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
 }
 
 .header h1 span {
@@ -191,6 +196,19 @@ a {
     color: #1f1f1f;
     padding: 40px 0;
     scroll-margin-top: 100px;
+}
+
+.apoyo-video {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.apoyo-video video {
+    margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 
