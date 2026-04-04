@@ -198,15 +198,15 @@ a {
     scroll-margin-top: 100px;
 }
 
-.apoyo-video {
+.video {
     display: flex;
     flex-direction: column;
     max-width: 900px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
-.apoyo-video video {
+.video video {
     margin-bottom: 15px;
     border-radius: 15px;
 }
