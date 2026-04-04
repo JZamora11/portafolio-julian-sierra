@@ -206,7 +206,7 @@ a {
     margin: 0 auto 50px;
 }
 
-.video video {
+.video iframe {
     margin-bottom: 15px;
     border-radius: 15px;
 }
