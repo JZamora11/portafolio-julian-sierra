@@ -129,12 +129,26 @@ a {
 }
 
 
-/* Sección: Ilustración */
-.seccion-ilustracion {
+/* Sección: Motion Graphics */
+.seccion-motion-graphics {
     background-color: #1f1f1f;
     color: #eee9e9;
     padding: 40px 0;
     scroll-margin-top: 100px;
+}
+
+.seccion-motion-graphics .video {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.seccion-motion-graphics .video img {
+    width: 300px;
+}
+
+.seccion-motion-graphics .video video {
+    width: 300px;
 }
 
 .titulo-seccion {
@@ -154,6 +168,16 @@ a {
     background-color: currentColor;
     max-width: 200px;
     border-radius: 100px;
+}
+
+
+/* Sección: Ilustraciones */
+.seccion-ilustracion {
+    margin: 30px 10px 60px;
+}
+
+.seccion-ilustracion .titulo-seccion {
+    color: #1f1f1f;
 }
 
 .img-ilustraciones {
@@ -188,14 +212,6 @@ a {
 .seccion-edicion .claro,
 .seccion-apoyos .claro {
     color: #1f1f1f;
-}
-
-
-/* Sección: Apoyos */
-.seccion-apoyos {
-    color: #1f1f1f;
-    padding: 40px 0;
-    scroll-margin-top: 100px;
 }
 
 .video {
