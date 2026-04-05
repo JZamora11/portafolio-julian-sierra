@@ -198,8 +198,6 @@ p, a {
 
 /* Sección: Motion Graphics */
 .seccion-motion-graphics {
-    display: flex;
-    flex-direction: column;
     background-color: #1f1f1f;
     color: #eee9e9;
     padding: 40px 0;
@@ -230,6 +228,13 @@ p, a {
     width: 400px;
     border-radius: 15px;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.seccion-motion-graphics hr {
+    max-width: 400px;
+    border: 2px dotted #eee9e9;
+    border-radius: 50%;
+    margin: 0 auto 40px;
 }
 
 
